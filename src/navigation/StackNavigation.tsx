@@ -9,7 +9,7 @@ export const StackNavigation = () => {
     return (
         <Stack.Navigator>
             <Stack.Screen name="Login" component={Login} />
-            <Stack.Screen name="dashboard" component={Dashboard} />
+            <Stack.Screen name="Dashboard" component={Dashboard} />
         </Stack.Navigator>
     )
 }
