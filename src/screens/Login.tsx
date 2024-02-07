@@ -1,13 +1,13 @@
 import React from "react";
 import { Button, StyleSheet, TextInput, View } from "react-native";
-import { LoginModule } from "../modules";
+import { LoginModule } from "../modules/LoginModule";
 
 export const Login = ({ navigation: { navigate }, route }:any) => {
     const [email, onChangeEmail] = React.useState('');
     const [password, onChangePassword] = React.useState('');
     return (
         <View>
-            <TextInput 
+            <TextInput
                 style={styles.input}
                 onChangeText={onChangeEmail}
                 value={email}
