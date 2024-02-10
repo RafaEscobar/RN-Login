@@ -1,5 +1,5 @@
 export const LoginModule = async([email, password]: any) => {
-    const url = "https://deed-2806-2f0-9f00-ffaf-c1f0-c064-97bf-dfed.ngrok-free.app/api/login";
+    const url = "";
     console.log(email, password);
     try {
         const response = await fetch(url, {
